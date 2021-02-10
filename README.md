@@ -1,6 +1,8 @@
 ## sbt project compiled with Dotty
 
-### Usage
+A disappointingly simple payment categoriser that takes in CSV files with details of one payment on each line and adds a category to each line.  It does this by looking for substrings - this is the simplest thing that works but also means that it works with different column ordering for different banks' formats.
+
+## Usage
 
 This is a normal sbt project, you can compile code with `sbt compile` and run it
 with `sbt run`, `sbt console` will start a Dotty REPL.
